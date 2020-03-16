@@ -1,7 +1,7 @@
 description = "Ubuntu bionic base image and tiny runtime image with buildpacks for Java"
 
 [lifecycle]
-  version = "0.1.0"
+  version = "0.7.0"
 
 [[buildpacks]]
   id = "org.cloudfoundry.openjdk"
