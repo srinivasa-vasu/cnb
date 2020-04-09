@@ -13,7 +13,6 @@ RUN cp /lib/x86_64-linux-gnu/libtinfo.so.5 /tiny/lib/x86_64-linux-gnu/
 RUN cp /lib/x86_64-linux-gnu/libz.so.1 /tiny/lib/x86_64-linux-gnu/
 RUN cp /lib/x86_64-linux-gnu/libz.so.1.2.11 /tiny/lib/x86_64-linux-gnu/
 RUN cp /lib/x86_64-linux-gnu/libgcc_s.so.1 /tiny/lib/x86_64-linux-gnu/
-
 RUN cp /bin/cat /tiny/bin/
 RUN cp /usr/bin/nproc /tiny/usr/bin/
 RUN echo "cnb:x:${cnb_uid}:${cnb_gid}:cnb:/home/cnb:/bin/bash" >> /tiny/etc/passwd \
