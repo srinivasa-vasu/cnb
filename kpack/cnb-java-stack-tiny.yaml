@@ -1,0 +1,10 @@
+apiVersion: experimental.kpack.pivotal.io/v1alpha1
+kind: Stack
+metadata:
+  name: cnb-java-stack-tiny
+spec:
+  id: "io.buildpacks.stacks.bionic"
+  buildImage:
+    image: "humourmind/cnb-build:tiny@sha256:17ed33b3cc4e926cd941fff3d375d01daef5887266c8e7eea5086a69b6d7d3d4"
+  runImage:
+    image: "humourmind/cnb-run:tiny@sha256:c4d12bdc264a04d74c5a1b87f99e77b1eb8dfdbe01781f844a69b15165c77ab2"

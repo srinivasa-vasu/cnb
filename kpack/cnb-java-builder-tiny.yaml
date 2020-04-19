@@ -1,0 +1,22 @@
+apiVersion: experimental.kpack.pivotal.io/v1alpha1
+kind: CustomBuilder
+metadata:
+  name: cnb-java-builder-tiny
+spec:
+  tag: humourmind/sv-java-builder-tiny:0.7.2
+#  serviceAccount: default
+  stack: cnb-java-stack-tiny
+  store: cnb-java-store-tiny
+  order:
+  - group:
+    - id: org.cloudfoundry.openjdk
+    - id: org.cloudfoundry.buildsystem
+    - id: org.cloudfoundry.jvmapplication
+    - id: org.cloudfoundry.tomcat
+    - id: org.cloudfoundry.springboot
+    - id: org.cloudfoundry.distzip
+    - id: org.cloudfoundry.procfile
+    - id: org.cloudfoundry.debug
+    - id: org.cloudfoundry.jdbc
+    - id: org.cloudfoundry.jmx
+    - id: org.cloudfoundry.springautoreconfiguration
