@@ -1,0 +1,7 @@
+apiVersion: experimental.kpack.pivotal.io/v1alpha1
+kind: Store
+metadata:
+  name: paketocnb-java-store-tiny
+spec:
+  sources:
+  - image: humourmind/paketo-java-builder-tiny@sha256:75135e44d9e1087b1f074130682e46f5e010b1b2bdfd4685dc6d07774a05945b

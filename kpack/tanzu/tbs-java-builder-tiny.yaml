@@ -1,0 +1,19 @@
+name: tanzucnb-java-builder-tiny
+tag: harbor.sys.humourmind.com/tbs/build-service/tanzu-bs-java-builder-tiny:0.7.3
+scope: Cluster
+stack: tanzucnb-java-stack-tiny
+store: tanzucnb-java-store-tiny
+order:
+- group:
+  - id: org.cloudfoundry.java
+  - id: org.cloudfoundry.openjdk
+  - id: org.cloudfoundry.buildsystem
+  - id: org.cloudfoundry.jvmapplication
+  - id: org.cloudfoundry.tomcat
+  - id: org.cloudfoundry.springboot
+  - id: org.cloudfoundry.distzip
+  - id: org.cloudfoundry.procfile
+  - id: org.cloudfoundry.debug
+  - id: org.cloudfoundry.jdbc
+  - id: org.cloudfoundry.jmx
+  - id: org.cloudfoundry.springautoreconfiguration

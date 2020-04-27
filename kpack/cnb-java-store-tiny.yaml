@@ -1,7 +1,0 @@
-apiVersion: experimental.kpack.pivotal.io/v1alpha1
-kind: Store
-metadata:
-  name: cnb-java-store-tiny
-spec:
-  sources:
-    - image: humourmind/cnb-java-builder-tiny:0.7.2@sha256:0b71f3e20b981598575fc2c01da6939f7ed33569e26c2515180ad7a9a8ebb35b

@@ -1,0 +1,26 @@
+apiVersion: experimental.kpack.pivotal.io/v1alpha1
+kind: CustomClusterBuilder
+metadata:
+  name: paketocnb-java-builder-tiny
+spec:
+  tag: harbor.sys.humourmind.com/tbs/build-service/paketo-bs-java-builder-tiny:0.7.3
+#  serviceAccount: default
+  stack: paketocnb-java-stack-tiny
+  store: paketocnb-java-store-tiny
+  order:
+  - group:
+    - id: paketo-buildpacks/bellsoft-liberica
+    - id: paketo-buildpacks/gradle
+    - id: paketo-buildpacks/maven
+    - id: paketo-buildpacks/sbt
+    - id: paketo-buildpacks/executable-jar
+    - id: paketo-buildpacks/apache-tomcat
+    - id: paketo-buildpacks/dist-zip
+    - id: paketo-buildpacks/procfile
+    - id: paketo-buildpacks/azure-application-insights
+    - id: paketo-buildpacks/debug
+    - id: paketo-buildpacks/google-stackdriver
+    - id: paketo-buildpacks/jmx
+    - id: paketo-buildpacks/spring-boot
+    - id: paketo-buildpacks/encrypt-at-rest
+    - id: paketo-buildpacks/image-labels
