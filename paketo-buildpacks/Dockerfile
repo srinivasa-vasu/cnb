@@ -1,3 +1,3 @@
-FROM humourmind/paketo-java-builder-tiny@sha256:dca69a05438ea21e6e2262bc8f9027e33228150fed44e568b8111f07e0f6d77b
+FROM humourmind/paketo-java-builder-tiny@sha256:716a653023d534410ee5fee04b1e3168f1ac251d208daa555487a4ca38b88290
 #FROM gcr.io/paketo-buildpacks/builder:base
 LABEL io.buildpacks.buildpackage.metadata="{\"id\":\"io.humourmind.paketocnb\",\"version\":\"v0.7.3\",\"stacks\":[{\"id\":\"org.cloudfoundry.stacks.cflinuxfs3\"},{\"id\":\"io.buildpacks.stacks.bionic\"}]}"

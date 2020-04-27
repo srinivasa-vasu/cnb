@@ -20,3 +20,10 @@ order:
   - id: paketo-buildpacks/spring-boot
   - id: paketo-buildpacks/encrypt-at-rest
   - id: paketo-buildpacks/image-labels
+- group:
+  - id: paketo-buildpacks/bellsoft-liberica
+  - id: paketo-buildpacks/maven
+  - id: paketo-buildpacks/executable-jar
+  - id: paketo-buildpacks/apache-tomcat
+  - id: paketo-buildpacks/dist-zip
+  - id: paketo-buildpacks/spring-boot
