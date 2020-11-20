@@ -4,4 +4,5 @@ metadata:
   name: paketocnb-java-store-tiny
 spec:
   sources:
-  - image: humourmind/paketo-java-builder-tiny@sha256:78d04ac5f05ee21a4bfd84d36573483fd04a2ac97c036db1ffd6065ef5e5e229
+  - image: humourmind/paketo-java-builder-tiny@sha256:40be20ed070cce98f6cfa3b9b588919502cc5f4f7ee330d19ec28cddf7d985bb
+#  - image: humourmind/paketo-java-builder-tiny@sha256:fd6c716f4dbf4a58c1a7e2d39f80eb1d724c05fa0a4d74569657c5b3098ae88f

@@ -5,6 +5,8 @@ metadata:
 spec:
   id: "io.buildpacks.stacks.bionic"
   buildImage:
-    image: "humourmind/cnb-build:tiny@sha256:17ed33b3cc4e926cd941fff3d375d01daef5887266c8e7eea5086a69b6d7d3d4"
+    image: "humourmind/cnb-bionic-build:tiny@sha256:8b04dcda1cd9836ee256a8ee0b0d973f6b6c6c8c9f3f7de6041dfbfea44e223d"
+#    image: "humourmind/cnb-bionic-build:tiny@sha256:ec55118b56e2bd9d9e75b3a8bea6643aced1623ffd518983ec579b38e61733cb"
   runImage:
-    image: "humourmind/cnb-run:tiny@sha256:9e069f5c33818c2ddec99d16c7501a9775f005e5cb69072f8dc618d6120f5d46"
+    image: "humourmind/cnb-bionic-run:tiny@sha256:6580af825dd054dd229dee77f3cfbee9ea208000b715c5176f3977ddc9bfc04d"
+#    image: "humourmind/cnb-bionic-run:tiny@sha256:bf1821b99703724b4316e1e46ee700d48c662e489e4523952d164a3d5031d4ab"

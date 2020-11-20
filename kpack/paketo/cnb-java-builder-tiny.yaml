@@ -3,7 +3,7 @@ kind: CustomClusterBuilder
 metadata:
   name: paketocnb-java-builder-tiny
 spec:
-  tag: harbor.sys.humourmind.com/tbs/build-service/paketo-bs-java-builder-tiny:0.7.3
+  tag: harbor.sys.humourmind.com/tbs/build-service/paketo-bs-java-builder-tiny:0.9.3
 #  serviceAccount: default
   stack: paketocnb-java-stack-tiny
   store: paketocnb-java-store-tiny
