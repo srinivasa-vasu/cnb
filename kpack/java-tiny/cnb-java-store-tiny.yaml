@@ -1,5 +1,5 @@
-apiVersion: experimental.kpack.pivotal.io/v1alpha1
-kind: Store
+apiVersion: kpack.io/v1alpha1
+kind: ClusterStore
 metadata:
   name: paketocnb-java-store-tiny
 spec:
